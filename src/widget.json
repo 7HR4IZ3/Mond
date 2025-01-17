@@ -1,0 +1,55 @@
+{
+  "name": "Mond Clock",
+  "id": "com.thraize.mond.clock",
+  "author": "Thraize @original Connect-R",
+  "version": "1.0.0",
+  "description": "Mond clock widget for Rainmeter!",
+  "aspectRatio": "auto-height",
+  "categories": ["clocks"],
+
+  "defaultSize": {
+    "placementY": "top",
+    "placementX": "left",
+    "x": 3,
+    "y": 10,
+    "width": 50,
+    "height": 10
+  },
+
+  "settings": [
+    {
+      "name": "dayFont",
+      "label": "Day Font",
+      "type": "font",
+      "defaultValue": "Anurati"
+    },
+    {
+      "name": "dateFont",
+      "label": "Date Font",
+      "type": "font",
+      "defaultValue": "Quicksand"
+    },
+    {
+      "name": "timeFont",
+      "label": "Time Font",
+      "type": "font",
+      "defaultValue": "Aquatico"
+    },
+
+    { "type": "divider" },
+
+    {
+      "name": "backgroundColor",
+      "type": "color",
+      "defaultValue": "transparent",
+      "defaultAutoColor": "transparent"
+    },
+    {
+      "name": "textColor",
+      "type": "color",
+      "defaultValue": "black",
+      "defaultAutoColor": "black"
+    }
+
+  ]
+}

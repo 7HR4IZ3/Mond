@@ -1,0 +1,33 @@
+/**
+ * Main container
+ * Note: Use ems and percentages for all values so the widget will scale!
+ */
+.widget-container {
+    background-color: var(--backgroundColor, transparent);
+    text-align: center;
+}
+
+.widget-container-inner {
+    padding: 2%;
+}
+
+/* Text Elements */
+.day {
+    color: var(--textColor);
+    margin: 0;
+    text-transform: uppercase;
+    /* letter-spacing: 15px; */
+}
+
+.date {
+    color: var(--textColor);
+    font-size: 0.4em;
+    margin: 0.3em 0;
+    text-transform: uppercase;
+}
+
+.time {
+    color: var(--textColor);
+    font-size: 0.3em;
+    margin: 1em 0;
+}
